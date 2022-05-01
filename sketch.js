@@ -42,9 +42,9 @@ function createKeys()
   //black keys are either 1 white key or 2 white keys away from each other
   //low keys 
   keys[0] = new key('c low.mp3', whiteKeyWidth * 0, 81, false, 'Q');
-  keys[1] = new key('c# low.mp3', 24, 50, true, '2');
+  keys[1] = new key('c sharp low.mp3', 24, 50, true, '2');
   keys[2] = new key('d low.mp3', whiteKeyWidth * 1, 87, false, 'W');
-  keys[3] = new key('d# low.mp3', 24 + (whiteKeyWidth * 1), 51, true, '3');
+  keys[3] = new key('d sharp low.mp3', 24 + (whiteKeyWidth * 1), 51, true, '3');
   keys[4] = new key('e low.mp3', whiteKeyWidth * 2, 69, false, 'E');
   keys[5] = new key('f low.mp3', whiteKeyWidth * 3, 82, false, 'R');
   keys[6] = new key('f# low.mp3', 24 + (whiteKeyWidth * 3), 53, true,'5');
