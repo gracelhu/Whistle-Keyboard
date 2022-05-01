@@ -47,40 +47,40 @@ function createKeys()
   keys[3] = new key('d sharp low.mp3', 24 + (whiteKeyWidth * 1), 51, true, '3');
   keys[4] = new key('e low.mp3', whiteKeyWidth * 2, 69, false, 'E');
   keys[5] = new key('f low.mp3', whiteKeyWidth * 3, 82, false, 'R');
-  keys[6] = new key('f# low.mp3', 24 + (whiteKeyWidth * 3), 53, true,'5');
+  keys[6] = new key('f sharp low.mp3', 24 + (whiteKeyWidth * 3), 53, true,'5');
   keys[7] = new key('g low.mp3', whiteKeyWidth * 4, 84, false,'T');
-  keys[8] = new key('g# low.mp3', 24 + (whiteKeyWidth * 4), 54, true,'6');
+  keys[8] = new key('g sharp low.mp3', 24 + (whiteKeyWidth * 4), 54, true,'6');
   keys[9] = new key('a low.mp3', whiteKeyWidth * 5, 89, false,'Y');
-  keys[10] = new key('a# low.mp3', 24 + (whiteKeyWidth * 5), 55, true,'7');
+  keys[10] = new key('a sharp low.mp3', 24 + (whiteKeyWidth * 5), 55, true,'7');
   keys[11] = new key('b low.mp3', whiteKeyWidth * 6, 85, false,'U');
   
   
   //middle keys 
   keys[12] = new key('c.mp3', whiteKeyWidth * 7, 73, false,'I');
-  keys[13] = new key('c#.mp3', 24 + (whiteKeyWidth * 7), 57, true,'9');
+  keys[13] = new key('c sharp.mp3', 24 + (whiteKeyWidth * 7), 57, true,'9');
   keys[14] = new key('d.mp3', whiteKeyWidth * 8, 79, false,'O');
-  keys[15] = new key('d#.mp3', 24 + (whiteKeyWidth * 8), 48, true,'0');
+  keys[15] = new key('d sharp.mp3', 24 + (whiteKeyWidth * 8), 48, true,'0');
   keys[16] = new key('e.mp3', whiteKeyWidth * 9, 80, false,'P');
   keys[17] = new key('f.mp3', whiteKeyWidth * 10, 90, false,'Z');
-  keys[18] = new key('f#.mp3', 24 + (whiteKeyWidth * 10), 83, true,'S');
+  keys[18] = new key('f sharp.mp3', 24 + (whiteKeyWidth * 10), 83, true,'S');
   keys[19] = new key('g.mp3', whiteKeyWidth * 11, 88, false,'X');
-  keys[20] = new key('g#.mp3', 24 + (whiteKeyWidth * 11), 68, true,'D');
+  keys[20] = new key('g sharp.mp3', 24 + (whiteKeyWidth * 11), 68, true,'D');
   keys[21] = new key('a.mp3', whiteKeyWidth * 12, 67, false,'C');
-  keys[22] = new key('a#.mp3', 24 + (whiteKeyWidth * 12), 70, true,'F');
+  keys[22] = new key('a sharp.mp3', 24 + (whiteKeyWidth * 12), 70, true,'F');
   keys[23] = new key('b.mp3', whiteKeyWidth * 13, 86, false,'V');
   
   //high keys 
   keys[24] = new key('c high.mp3', whiteKeyWidth * 14, 66, false,'B');
-  keys[25] = new key('c# high.mp3', 24 + (whiteKeyWidth * 14), 72, true,'H');
+  keys[25] = new key('c sharp high.mp3', 24 + (whiteKeyWidth * 14), 72, true,'H');
   keys[26] = new key('d high.mp3', whiteKeyWidth * 15, 78, false,'N');
-  keys[27] = new key('d# high.mp3', 24 + (whiteKeyWidth * 15), 74, true,'J');
+  keys[27] = new key('d sharp high.mp3', 24 + (whiteKeyWidth * 15), 74, true,'J');
   keys[28] = new key('e high.mp3', whiteKeyWidth * 16, 77, false,'M');
   keys[29] = new key('f high.mp3', whiteKeyWidth * 17, 188, false,',');
-  keys[30] = new key('f# high.mp3', 24 + (whiteKeyWidth * 17), 76, true,'L');
+  keys[30] = new key('f sharp high.mp3', 24 + (whiteKeyWidth * 17), 76, true,'L');
   keys[31] = new key('g high.mp3', whiteKeyWidth * 18, 190, false,'.');
-  keys[32] = new key('g# high.mp3', 24 + (whiteKeyWidth * 18), 186, true,';');
+  keys[32] = new key('g sharp high.mp3', 24 + (whiteKeyWidth * 18), 186, true,';');
   keys[33] = new key('a high.mp3', whiteKeyWidth * 19, 191, false,'/');
-  keys[34] = new key('a# high.mp3', 24 + (whiteKeyWidth * 19), 189, true,'-');
+  keys[34] = new key('a sharp high.mp3', 24 + (whiteKeyWidth * 19), 189, true,'-');
   keys[35] = new key('b high.mp3', whiteKeyWidth * 20, 187, false, '=');
 }
 
