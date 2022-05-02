@@ -284,3 +284,11 @@ function turnBlack(key)
 {
   key.color = 0;
 }
+
+function touchHandler(event){
+    if(event.touches.length > 1){
+        //the event is multi-touch
+        //you can then prevent the behavior
+        event.preventDefault()
+    }
+}
