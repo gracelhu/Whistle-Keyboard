@@ -20,9 +20,8 @@ function setup() {
   width = 714;
   height = 500;
   
-  createCanvas(width, height);
+  createCanvas(windowWidth, windowHeight);
   colorMode(HSB);
-  background(190,20,80);
   createKeys();
 
   mic = new p5.AudioIn();
@@ -86,6 +85,7 @@ function createKeys()
 
 function draw() 
 {
+    background(190,20,80);
     textSize(35);
     fill(0);
     text('Whistle Keyboard', 210, 85);  
@@ -283,4 +283,8 @@ function turnWhite(key)
 function turnBlack(key)
 {
   key.color = 0;
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
